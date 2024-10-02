@@ -1,0 +1,86 @@
+li {
+
+    list-style: none;
+    }
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+
+    color: rgb(187, 138, 194);
+}
+
+img {
+    width: 500px;
+}
+
+.about {
+
+    text-align: center;
+    
+}
+
+.myskills {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+
+    color: rgb(123, 145, 93);
+}
+
+li {
+
+    color: rgb(187, 138, 194);
+    margin: 5px;
+}
+
+.photos-box {
+
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.slider img {
+
+    width: 300px;
+}
+
+.mybutton {
+
+    display: flex;
+    justify-content: center;
+}
+
+.mybutton :hover {
+
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+
+
+button {
+
+    color: wheat;
+    transition: ease-in-out 0.2s;
+    font-size: 30px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(203, 119, 119);
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+}
